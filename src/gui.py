@@ -105,8 +105,6 @@ class LinkedTaskManagerApp:
         title = ttk.Label(main, text="LinkedTaskManager", style="Title.TLabel")
         subtitle = ttk.Label(
             main,
-            text="Strict singly linked list - no Python list helpers, pointer-only traversal.",
-            style="Subtitle.TLabel",
         )
         title.grid(row=0, column=0, columnspan=3, sticky="w")
         subtitle.grid(row=1, column=0, columnspan=3, sticky="w", pady=(0, 12))
